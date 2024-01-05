@@ -91,13 +91,19 @@ nav a {
 }
 
 /* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section styles */
 .section-description {
   color: #757575;
   text-align: center;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  
 }
 .about {
   padding: 120px;
@@ -105,6 +111,25 @@ nav a {
   background: #fff8f3;
   margin: 100px 150px;
 }
-.section-title{
-    margin-bottom: 10px;
+.section-title {
+  margin-bottom: 10px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-description {
+  color: #474747;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
 }
