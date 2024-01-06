@@ -56,11 +56,18 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
-  background-size: 590px;
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-size: 590px, 70px;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, 30px ;
+
 }
+/* .developer-image{
+  position: absolute;
+  top: 25px;
+  height: 540px;
+  left: 40px
+} */
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
