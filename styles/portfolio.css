@@ -111,7 +111,6 @@ main {
   margin: 100px 100px;
 }
 .section-title {
-  margin-bottom: 10px;
 }
 .about-info-container {
   display: flex;
@@ -181,4 +180,77 @@ main {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+}
+/* resume related css */
+.resume {
+  padding: 40px 90px;
+}
+.section-title {
+  padding-bottom: 60px;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+.education-container {
+  width: 95%;
+  padding-bottom: 20px;
+}
+.experience-container {
+  width: 95%;
+  padding-bottom: 20px;
+}
+.education-title {
+  color: #474747;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.education-degree {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.education-duration {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.education-description {
+  color: #757575;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  width: 90%;
+}
+.experience-title {
+  color: #474747;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.experience-degree {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.experience-duration {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.experience-description {
+  color: #757575;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  width: 90%;
+}
+.btn-resume{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
 }
