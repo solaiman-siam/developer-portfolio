@@ -291,6 +291,9 @@ footer {
   margin-bottom: 28px;
 
 }
+.description-mobile{
+  margin-top: 0;
+}
 .social-icons img{
   width: 20px;
   height: 20px;
@@ -307,6 +310,149 @@ input, textarea{
   padding: 15px 25px;
   margin-bottom: 20px;
 }
-#btn-footer{
+
+
+/* Responsive Design */
+
+.hide{
+  display: none;
+}
+/* small device */
+
+
+@media screen and (max-width:596px) {
+
+  /* footer section */
+
+  
+  footer{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column{
+    width: 100%
+  }
+  .footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  #footer-title, .section-description, .social-icons{
+    text-align: center;
+  }
+  #footer-title{
+    margin-bottom: 
+  }
+  input, textarea{
+    width: 100%
+  }
+  #footer-column{
+    width: 100%;
+  }
+  #btn-footer{
+    text-align: center;
+  }
+
+  /* resume section */
+
+  .resume-container{
+    flex-direction: column;
+    
+  }
+  .resume{
+    padding: 40px 20px;
+  }
+
+
+/* what i do section */
+
+
+  #what-title{
+    margin-bottom: 20px;
+  }
+  #what-description{
+    padding: 0 20px;
+  }
+  .skills-container{
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px
+  }
+  .skill{
+    width: 100%
+  }
+
+/* about me section */
+
+
+.about{
+  padding: 60px 20px;
+  margin: 60px 0;
+  
+}
+.about-info-container{
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* header section */
+
+
+.banner{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+}
+
+.header{
+  background-image: none;
+}
+
+nav{
+  flex-direction: column;
+}
+
+/* banner section */
+
+
+ul li .hire-me{
+  display: block;
+}
+nav{
+  padding: 20px 20px;
+  margin: 0;
+}
+.nav-title{
+  padding-bottom: 30px;
+}
+.banner{
+  padding: 30px 20px;
+}
+.banner-description{
+  width: auto;
+  padding-bottom: 20px;
+}
+.btn-1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.banner-content, .banner-greeting, .banner-description{
+  text-align: center;
+}
+
+
+
+}
+
+/* Medium Device */
+@media screen and (min-width: 596px) and (max-width: 992px) {
   
 }
