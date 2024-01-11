@@ -324,10 +324,11 @@ input, textarea{
 
   /* footer section */
 
-  
+
   footer{
     flex-direction: column;
-    padding: 10px;
+    padding:  40px 20px;
+    gap: 40px;
   }
   .footer-column{
     width: 100%
@@ -342,9 +343,7 @@ input, textarea{
   #footer-title, .section-description, .social-icons{
     text-align: center;
   }
-  #footer-title{
-    margin-bottom: 
-  }
+  
   input, textarea{
     width: 100%
   }
